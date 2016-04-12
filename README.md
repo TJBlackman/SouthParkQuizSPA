@@ -1,2 +1,3 @@
 # SouthParkQuizSPA
-My First Single Page Application (SPA)
+Just open and take the Quiz! 
+Good luck! 
