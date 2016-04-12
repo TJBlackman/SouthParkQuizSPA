@@ -1,0 +1,104 @@
+html {
+  background: url('../images/intro-background.jpg') top center no-repeat;
+  background-size: cover !important;
+  height: 100% !important;
+  transition: linear: 0.5s;
+}
+html.test {
+  background: url('../images/questions-background.jpg') top center no-repeat;
+}
+html.end {
+  background: url('../images/end-background.jpg') top center no-repeat;
+}
+#intro h1,
+#intro h3 {
+  color: #E28100;
+  text-align: left;
+  text-shadow: 1px 1px 2px black, -1px 1px 2px black;
+  margin-left: 80px;
+}
+#intro h1 {
+  margin-bottom: 0;
+  font-size: 70px;
+}
+#intro h3 {
+  margin-top: 0;
+  font-size: 40px;
+}
+#intro .startQuiz {
+  outline: transparent;
+  font-size: 50px;
+  border-radius: 10px;
+  margin: 5% 0 0 6%;
+}
+#intro .startQuiz:hover {
+  cursor: pointer;
+}
+#test {
+  display: none;
+}
+#test h4 {
+  text-align: right;
+  margin: 6% 14% 0 0;
+  color: #795548;
+  font-size: 20px;
+}
+#test h3 {
+  color: #795548;
+  font-size: 35px;
+  margin: 4% 10% 1% 11%;
+}
+#test ul {
+  list-style-type: none;
+  margin-top: 50px;
+}
+#test ul li {
+  margin-bottom: 15px;
+}
+#test ul li:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#test ul li span {
+  font-size: 25px;
+  margin: 0px 13% 0 15%;
+  font-weight: 600;
+  display: block;
+  color: #40B7C1;
+  text-shadow: 1px 1px 1px black;
+  display: inline-block;
+}
+#test ul li span:hover,
+#test ul li span:focus,
+#test ul li span:active {
+  color: #E28100;
+  cursor: pointer;
+}
+#test ul li span.selected {
+  color: #E28100;
+}
+#test button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 6% 0 0 17%;
+  outline: transparent;
+}
+#end {
+  display: none;
+}
+#end h3 {
+  color: #E28100;
+  text-align: LEFT;
+  text-shadow: 1px 1px 2px black;
+  font-size: 40px;
+  margin: 7%;
+}
+#end button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 6% 0 0 10%;
+  outline: transparent;
+}

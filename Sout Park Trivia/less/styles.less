@@ -1,0 +1,118 @@
+//////////// General 
+html {
+	background: url('../images/intro-background.jpg') top center no-repeat;
+	background-size: cover !important;
+	height: 100% !important;
+	transition: linear: 0.5s;
+	&.test {
+		background: url('../images/questions-background.jpg') top center no-repeat;
+	}
+	&.end {
+		background: url('../images/end-background.jpg') top center no-repeat;
+	}
+
+}
+
+//////////////// Intro Page Styles
+#intro {
+	h1, h3 {
+		color: #E28100; text-align: left; text-shadow: 1px 1px 2px black, -1px 1px 2px black; margin-left: 80px; 
+	}
+	h1 {
+		margin-bottom: 0; 
+		font-size: 70px;
+	}
+	h3 {
+		margin-top: 0; 
+		font-size: 40px; 
+	}
+	.startQuiz {
+		outline: transparent;
+	    font-size: 50px;
+	    border-radius: 10px;
+	    margin: 5% 0 0 6%;
+	    &:hover {
+		    cursor: pointer;
+	    }
+	}
+	
+}
+
+
+/////////////////// Test Styles
+#test {
+	display: none;
+	h4 {
+		text-align: right;
+		margin: 6% 14% 0 0;
+		color: #795548;
+		font-size: 20px;
+	}
+	h3 {
+	    color: #795548;
+		font-size: 35px;
+		margin: 4% 10% 1% 11%;
+	}
+	ul {
+		list-style-type: none;	
+		margin-top: 50px; 
+		li {
+			margin-bottom: 15px;
+			
+			
+			&:after{
+				content: "";
+				clear: both; 
+				display: table;
+			}
+			span {
+			        font-size: 25px;
+				    margin: 0px 13% 0 15%;
+				    font-weight: 600;
+				    display: block;
+				    color: #40B7C1;
+				    text-shadow: 1px 1px 1px black;
+				    display: inline-block;
+			    
+			    &:hover, 
+			    &:focus, 
+			    &:active {
+				    color:#E28100;
+				    cursor: pointer;
+			    }
+			    
+			    &.selected {
+				color: #E28100;
+				}
+			}
+			
+		}
+	}
+	button {
+		font-size: 20px;
+	    padding: 10px 20px;
+	    border-radius: 15px;
+	    margin: 6% 0 0 17%;
+	    outline: transparent;
+	}
+	
+}
+
+#end {
+ 	display: none;
+	h3 {
+		color: #E28100;
+		text-align: LEFT;
+		text-shadow: 1px 1px 2px black;
+		font-size: 40px;
+		margin: 7%;
+	}
+	button {
+		font-size: 20px;
+		padding: 10px 20px;
+		border-radius: 15px;
+		margin: 6% 0 0 10%;
+		outline: transparent;
+	}
+	
+}
