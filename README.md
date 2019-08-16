@@ -1,3 +1,5 @@
 # SouthParkQuizSPA
-Just open and take the Quiz! 
-Good luck! 
+
+[https://southparkquiz.netlify.com](https://southparkquiz.netlify.com)
+
+First ever "SPA" while learning about Javascript. 
